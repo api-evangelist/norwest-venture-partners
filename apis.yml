@@ -1,0 +1,88 @@
+aid: norwest-venture-partners
+name: Norwest Venture Partners
+description: >-
+  Norwest Venture Partners is a multi-stage venture capital and growth equity
+  investment firm founded in 1961 and headquartered in Menlo Park, California,
+  with additional presence in San Francisco and subsidiaries in Mumbai, India
+  and Tel Aviv, Israel. As of its 2024 NVP XVII fund ($3B), the firm manages
+  more than $15.5 billion in capital and has backed over 700 companies across
+  its history. Norwest invests across the full lifecycle — from early-stage
+  venture through late-stage growth equity — with sector focus spanning
+  enterprise and B2B SaaS, cloud and infrastructure, AI, fintech, healthcare
+  and life sciences (including biotech and digital health), and consumer and
+  lifestyle brands. The firm is known for a hands-on but non-intrusive partnership
+  model, backing its founders with Portfolio Success programs across talent,
+  operations, leadership, and go-to-market. Notable investments include Plaid,
+  Uber, Spotify, Opendoor, Gong, Vuori, Kendra Scott, Casper, Udemy, Avetta,
+  Adaptive Insights, YipitData, Babylist, Workato, and Veza.
+x-type: venture-capital
+x-category: Venture Capital
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-17'
+image: https://www.norwest.com/wp-content/themes/norwest/assets/images/logo.svg
+tags:
+  - Venture Capital
+  - Growth Equity
+  - Early Stage
+  - Late Stage
+  - Enterprise SaaS
+  - Fintech
+  - Healthcare
+  - Life Sciences
+  - Consumer
+  - Artificial Intelligence
+  - North America
+  - India
+  - Israel
+apis: []
+common:
+  - type: Website
+    url: https://www.norwest.com/
+  - type: Portfolio
+    url: https://www.norwest.com/companies/
+  - type: Portfolio
+    url: portfolio/norwest-venture-partners-portfolio.yml
+  - type: Team
+    url: https://www.norwest.com/team/
+  - type: Team
+    url: team/norwest-venture-partners-team.yml
+  - type: InvestmentThesis
+    url: https://www.norwest.com/venture/
+  - type: Blog
+    url: https://www.norwest.com/insights/
+  - type: News
+    url: https://www.norwest.com/news/
+  - type: Jobs
+    url: https://www.norwest.com/portfolio-jobs/
+  - type: Contact
+    url: https://www.norwest.com/contact/
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/norwest-venture-partners
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/norwest-venture-partners
+  - type: Twitter
+    url: https://twitter.com/norwestvp
+  - type: Features
+    data:
+      - 'Stage: Early-stage venture through late-stage growth equity'
+      - 'Sectors: enterprise/B2B SaaS, cloud & infrastructure, AI, fintech, healthcare & life sciences, consumer'
+      - 'Geography: North America, India, Israel'
+      - 'AUM: $15.5B total capital under management (as of NVP XVII, 2024)'
+      - 'Latest fund: NVP XVII, LP — $3B (2024)'
+      - 'Companies backed: 700+ since inception'
+      - 'Founded: 1961'
+      - 'HQ: Menlo Park, California'
+    sources:
+      - https://www.norwest.com/
+      - https://en.wikipedia.org/wiki/Norwest_Venture_Partners
+      - https://www.linkedin.com/company/norwest-venture-partners
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Norwest Venture Partners
+    url: https://www.norwest.com/
