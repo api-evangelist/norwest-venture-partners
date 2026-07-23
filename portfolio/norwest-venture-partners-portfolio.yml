@@ -3,9 +3,9 @@ method: searched
 source: https://www.norwest.com/companies/
 summary:
   portfolio_total: 433
-  in_network: 91
-  api_providers: 64
-  missing: 342
+  in_network: 433
+  api_providers: 85
+  missing: 0
   stubs_created: 0
 companies:
 - name: 1010data
@@ -14,72 +14,80 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 1010data
+  slug: 1010data
+  matched_by: domain
 - name: 6river
   url: https://6river.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 6river
+  slug: 6river
+  matched_by: domain
 - name: Abodu
   url: https://abodu.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: abodu
+  slug: abodu
+  matched_by: domain
 - name: Above
   url: https://above.security
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: above
+  slug: above
+  matched_by: domain
 - name: Absencesoft
   url: https://absencesoft.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: absencesoft
+  slug: absencesoft
+  matched_by: domain
 - name: Aciworldwide
   url: https://aciworldwide.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aciworldwide
+  slug: aciworldwide
+  matched_by: domain
 - name: Act-on
   url: https://act-on.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: act-on
+  slug: act-on
+  matched_by: domain
 - name: Activenetwork
   url: https://activenetwork.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: activenetwork
+  slug: activenetwork
+  matched_by: domain
 - name: Adaptiveinsights
   url: https://adaptiveinsights.com
   sector: unknown
@@ -96,72 +104,80 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adc
+  slug: adc
+  matched_by: domain
 - name: Admeld
   url: https://admeld.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: admeld
+  slug: admeld
+  matched_by: domain
 - name: Aestheticpartners
   url: https://aestheticpartners.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aestheticpartners
+  slug: aestheticpartners
+  matched_by: domain
 - name: Agari
   url: https://agari.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agari
+  slug: agari
+  matched_by: domain
 - name: Aisera
   url: https://aisera.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aisera
+  slug: aisera
+  matched_by: domain
 - name: Aizome
   url: https://aizome.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aizome
+  slug: aizome
+  matched_by: domain
 - name: Aktana
   url: https://aktana.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aktana
+  slug: aktana
+  matched_by: name-slug
 - name: Alcatel-lucent
   url: https://alcatel-lucent.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alcatel-lucent
+  slug: alcatel-lucent
+  matched_by: domain
 - name: Alibaba
   url: https://alibaba.com
   sector: unknown
@@ -178,18 +194,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: alice
+  in_network: true
+  is_api_provider: true
+  slug: alice
+  matched_by: domain
 - name: Amagi
   url: https://amagi.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: amagi
+  in_network: true
+  is_api_provider: true
+  slug: amagi
+  matched_by: domain
 - name: Amberflo
   url: https://amberflo.io
   sector: unknown
@@ -206,9 +224,10 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amberpoint
+  slug: amberpoint
+  matched_by: domain
 - name: Amdocs
   url: https://amdocs.com
   sector: unknown
@@ -225,9 +244,10 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: americanendovascular
+  slug: americanendovascular
+  matched_by: domain
 - name: Amobee
   url: https://amobee.com
   sector: unknown
@@ -244,9 +264,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amplication
+  slug: amplication
+  matched_by: domain
 - name: Anomalo
   url: https://anomalo.com
   sector: unknown
@@ -263,9 +284,10 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anonymco
+  slug: anonymco
+  matched_by: domain
 - name: Aol
   url: https://netscape.aol.com
   sector: unknown
@@ -282,9 +304,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apacfin
+  slug: apacfin
+  matched_by: domain
 - name: Apigee
   url: https://apigee.com
   sector: unknown
@@ -301,18 +324,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apreohealth
+  slug: apreohealth
+  matched_by: domain
 - name: Arcserve
   url: https://arcserve.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arcserve
+  slug: arcserve
+  matched_by: domain
 - name: Argus
   url: https://argus.systems
   sector: unknown
@@ -339,9 +364,9 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  slug: automation-anywhere
+  slug: aisera
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Avalynpharma
   url: https://avalynpharma.com
@@ -349,99 +374,110 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avalynpharma
+  slug: avalynpharma
+  matched_by: domain
 - name: Avetta
   url: https://avetta.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avetta
+  slug: avetta
+  matched_by: domain
 - name: Awavesemi
   url: https://awavesemi.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: awavesemi
+  slug: awavesemi
+  matched_by: domain
 - name: Azuria
   url: https://azuria.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: azuria
+  slug: azuria
+  matched_by: domain
 - name: Babylist
   url: https://babylist.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: babylist
+  slug: babylist
+  matched_by: domain
 - name: Bailey44
   url: https://bailey44.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bailey44
+  slug: bailey44
+  matched_by: domain
 - name: Banyansoftware
   url: https://banyansoftware.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: banyansoftware
+  slug: banyansoftware
+  matched_by: domain
 - name: Billiontoone
   url: https://billiontoone.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: billiontoone
+  slug: billiontoone
+  matched_by: domain
 - name: Bluecloudpsc
   url: https://bluecloudpsc.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluecloudpsc
+  slug: bluecloudpsc
+  matched_by: domain
 - name: Bluecore
   url: https://bluecore.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bluecore
+  in_network: true
+  is_api_provider: true
+  slug: bluecore
+  matched_by: domain
 - name: Borqs
   url: https://borqs.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: borqs
+  slug: borqs
+  matched_by: domain
 - name: Bostonscientific
   url: https://bostonscientific.com
   sector: unknown
@@ -458,9 +494,10 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: britesemi
+  slug: britesemi
+  matched_by: domain
 - name: Broadcom
   url: https://broadcom.com
   sector: unknown
@@ -487,36 +524,39 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bsquare
+  slug: bsquare
+  matched_by: domain
 - name: Buildvision
   url: https://buildvision.io
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buildvision
+  slug: buildvision
+  matched_by: domain
 - name: Butterpayments
   url: https://butterpayments.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: butterpayments
+  slug: butterpayments
+  matched_by: domain
 - name: Calm
   url: https://calm.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  slug: calm-app
+  slug: calm
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Carecloud
   url: https://carecloud.com
@@ -524,45 +564,50 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carecloud
+  slug: carecloud
+  matched_by: domain
 - name: Celebaltech
   url: https://celebaltech.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: celebaltech
+  slug: celebaltech
+  matched_by: domain
 - name: Celona
   url: https://celona.io
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: celona
+  slug: celona
+  matched_by: domain
 - name: Channel99
   url: https://channel99.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: channel99
+  slug: channel99
+  matched_by: domain
 - name: Cholamandalam
   url: https://cholamandalam.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cholamandalam
+  slug: cholamandalam
+  matched_by: domain
 - name: Ciena
   url: https://ciena.com
   sector: unknown
@@ -589,18 +634,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: citcon
+  slug: citcon
+  matched_by: domain
 - name: Citymall
   url: https://citymall.live
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: citymall
+  slug: citymall
+  matched_by: domain
 - name: Classiq
   url: https://classiq.io
   sector: unknown
@@ -627,18 +674,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cleardata
+  slug: cleardata
+  matched_by: domain
 - name: Clevercarehealthplan
   url: https://clevercarehealthplan.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: clevercarehealthplan
+  in_network: true
+  is_api_provider: true
+  slug: clevercarehealthplan
+  matched_by: domain
 - name: Cogentco
   url: https://cogentco.com
   sector: unknown
@@ -655,27 +704,30 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: collegepulse
+  slug: collegepulse
+  matched_by: domain
 - name: Common
   url: https://common.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: common
+  slug: common
+  matched_by: name-slug
 - name: Cookieyes
   url: https://cookieyes.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cookieyes
+  slug: cookieyes
+  matched_by: domain
 - name: Copper
   url: https://copper.com
   sector: unknown
@@ -692,9 +744,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cority
+  slug: cority
+  matched_by: domain
 - name: Cotality
   url: https://cotality.com
   sector: unknown
@@ -711,16 +764,17 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: courierhealth
+  slug: courierhealth
+  matched_by: domain
 - name: Coval
   url: https://coval.dev
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  slug: coval-ai
+  slug: coval
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -740,90 +794,100 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cray
+  slug: cray
+  matched_by: domain
 - name: Crossoverhealth
   url: https://crossoverhealth.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crossoverhealth
+  slug: crossoverhealth
+  matched_by: domain
 - name: Ctd
   url: https://ctd.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ctd
+  slug: ctd
+  matched_by: domain
 - name: Culinarybrands
   url: https://culinarybrands.in
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: culinarybrands
+  slug: culinarybrands
+  matched_by: domain
 - name: Cynet
   url: https://cynet.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cynet
+  slug: cynet
+  matched_by: domain
 - name: Cytovale
   url: https://cytovale.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cytovale
+  slug: cytovale
+  matched_by: domain
 - name: Dairyqueen
   url: https://dairyqueen.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dairyqueen
+  slug: dairyqueen
+  matched_by: domain
 - name: Datacor
   url: https://datacor.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datacor
+  slug: datacor
+  matched_by: domain
 - name: Datarobot
   url: https://datarobot.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datarobot
+  slug: datarobot
+  matched_by: domain
 - name: Dave
   url: https://dave.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dave
+  slug: dave
+  matched_by: domain
 - name: Demandbase
   url: https://demandbase.com
   sector: unknown
@@ -840,9 +904,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: diagrid
+  slug: diagrid
+  matched_by: domain
 - name: Diligent
   url: https://diligent.com
   sector: unknown
@@ -869,9 +934,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: diviofficial
+  slug: diviofficial
+  matched_by: domain
 - name: Docusign
   url: https://docusign.com
   sector: unknown
@@ -888,9 +954,9 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  slug: dremio-intelligent-lakehouse-platform
+  slug: dremio
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Dtexsystems
   url: https://dtexsystems.com
@@ -898,54 +964,60 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dtexsystems
+  slug: dtexsystems
+  matched_by: name-slug
 - name: Duroflexworld
   url: https://duroflexworld.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: duroflexworld
+  slug: duroflexworld
+  matched_by: domain
 - name: Eastrangegroup
   url: https://eastrangegroup.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eastrangegroup
+  slug: eastrangegroup
+  matched_by: domain
 - name: Ebbo
   url: https://ebbo.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ebbo
+  slug: ebbo
+  matched_by: domain
 - name: Ediphi
   url: https://ediphi.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ediphi
+  slug: ediphi
+  matched_by: domain
 - name: Edmeinsurance
   url: https://edmeinsurance.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: edmeinsurance
+  slug: edmeinsurance
+  matched_by: domain
 - name: Elastic
   url: https://elastic.co
   sector: unknown
@@ -962,27 +1034,30 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elevate
+  slug: elevate
+  matched_by: name-slug
 - name: Elitebusinessventures
   url: https://elitebusinessventures.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elitebusinessventures
+  slug: elitebusinessventures
+  matched_by: domain
 - name: Elligohealthresearch
   url: https://elligohealthresearch.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elligohealthresearch
+  slug: elligohealthresearch
+  matched_by: name-slug
 - name: Emc
   url: https://emc.com
   sector: unknown
@@ -999,45 +1074,50 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enable
+  slug: enable
+  matched_by: name-slug
 - name: Endovascularengineering
   url: https://endovascularengineering.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: endovascularengineering
+  slug: endovascularengineering
+  matched_by: domain
 - name: Enghouse
   url: https://enghouse.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enghouse
+  slug: enghouse
+  matched_by: domain
 - name: Engrail
   url: https://engrail.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: engrail
+  slug: engrail
+  matched_by: domain
 - name: Ennoblecare
   url: https://ennoblecare.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ennoblecare
+  slug: ennoblecare
+  matched_by: domain
 - name: Envestnet
   url: https://envestnet.com
   sector: unknown
@@ -1054,9 +1134,10 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: envisagenow
+  slug: envisagenow
+  matched_by: domain
 - name: Ericsson
   url: https://ericsson.com
   sector: unknown
@@ -1073,36 +1154,40 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ermetic
+  slug: ermetic
+  matched_by: domain
 - name: Ethossystems
   url: https://ethossystems.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ethossystems
+  slug: ethossystems
+  matched_by: domain
 - name: Exabeam
   url: https://exabeam.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: exabeam
+  slug: exabeam
+  matched_by: domain
 - name: Excision
   url: https://excision.bio
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: excision
+  slug: excision
+  matched_by: domain
 - name: Experian
   url: https://experian.com
   sector: unknown
@@ -1119,18 +1204,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: exponential
+  in_network: true
+  is_api_provider: true
+  slug: exponential
+  matched_by: domain
 - name: Extole
   url: https://extole.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: extole
+  in_network: true
+  is_api_provider: true
+  slug: extole
+  matched_by: domain
 - name: Extremenetworks
   url: https://extremenetworks.com
   sector: unknown
@@ -1167,18 +1254,20 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fabrix
+  slug: fabrix
+  matched_by: domain
 - name: Facerealityskincare
   url: https://facerealityskincare.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: facerealityskincare
+  slug: facerealityskincare
+  matched_by: domain
 - name: Faire
   url: https://faire.com
   sector: unknown
@@ -1195,18 +1284,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fibe
+  slug: fibe
+  matched_by: domain
 - name: Finova
   url: https://finova.in
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: finova
+  slug: finova
+  matched_by: domain
 - name: Fireeye
   url: https://fireeye.com
   sector: unknown
@@ -1223,126 +1314,140 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fivestargroup
+  slug: fivestargroup
+  matched_by: domain
 - name: Floqast
   url: https://floqast.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: floqast
+  slug: floqast
+  matched_by: domain
 - name: Flyhomes
   url: https://flyhomes.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flyhomes
+  slug: flyhomes
+  matched_by: domain
 - name: Forcepoint
   url: https://forcepoint.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forcepoint
+  slug: forcepoint
+  matched_by: domain
 - name: Fossa
   url: https://fossa.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fossa
+  slug: fossa
+  matched_by: domain
 - name: Frontlinewildfire
   url: https://frontlinewildfire.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: frontlinewildfire
+  slug: frontlinewildfire
+  matched_by: domain
 - name: Gabit
   url: https://gabit.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gabit
+  slug: gabit
+  matched_by: domain
 - name: Gemvara
   url: https://gemvara.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gemvara
+  slug: gemvara
+  matched_by: domain
 - name: Generalistai
   url: https://generalistai.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: generalistai
+  slug: generalistai
+  matched_by: domain
 - name: Geocomply
   url: https://geocomply.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: geocomply
+  slug: geocomply
+  matched_by: domain
 - name: Getpequity
   url: https://getpequity.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: getpequity
+  slug: getpequity
+  matched_by: domain
 - name: Gilt
   url: https://gilt.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gilt
+  slug: gilt
+  matched_by: domain
 - name: Glintinc
   url: https://glintinc.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glintinc
+  slug: glintinc
+  matched_by: domain
 - name: Glow
   url: https://glow.fm
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glow
+  slug: glow
+  matched_by: domain
 - name: Gofundme
   url: https://gofundme.com
   sector: unknown
@@ -1369,81 +1474,90 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goyazjewellery
+  slug: goyazjewellery
+  matched_by: domain
 - name: Grove
   url: https://grove.co
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grove
+  slug: grove
+  matched_by: domain
 - name: Gtctowers
   url: https://gtctowers.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gtctowers
+  slug: gtctowers
+  matched_by: domain
 - name: Guidde
   url: https://guidde.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guidde
+  slug: guidde
+  matched_by: domain
 - name: Gxs
   url: https://gxs.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gxs
+  slug: gxs
+  matched_by: domain
 - name: Gymboree
   url: https://gymboree.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gymboree
+  slug: gymboree
+  matched_by: domain
 - name: Habu
   url: https://habu.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: habu
+  slug: habu
+  matched_by: domain
 - name: Harborglobal
   url: https://harborglobal.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: harborglobal
+  slug: harborglobal
+  matched_by: domain
 - name: Harmonicinc
   url: https://harmonicinc.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: harmonicinc
+  slug: harmonicinc
+  matched_by: domain
 - name: Harness
   url: https://harness.io
   sector: unknown
@@ -1460,27 +1574,30 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hatcheri
+  slug: hatcheri
+  matched_by: domain
 - name: Healthcatalyst
   url: https://healthcatalyst.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: healthcatalyst
+  slug: healthcatalyst
+  matched_by: domain
 - name: Heeler
   url: https://heeler.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heeler
+  slug: heeler
+  matched_by: domain
 - name: Hellopebl
   url: https://hellopebl.com
   sector: unknown
@@ -1497,36 +1614,40 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heydianahealth
+  slug: heydianahealth
+  matched_by: domain
 - name: High5health
   url: https://high5health.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: high5health
+  slug: high5health
+  matched_by: domain
 - name: Hobnob
   url: https://hobnob.app
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hobnob
+  slug: hobnob
+  matched_by: domain
 - name: Homeward
   url: https://homeward.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: homeward
+  in_network: true
+  is_api_provider: true
+  slug: homeward
+  matched_by: domain
 - name: Honeybook
   url: https://honeybook.com
   sector: unknown
@@ -1553,9 +1674,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hyro
+  slug: hyro
+  matched_by: domain
 - name: Ibm
   url: https://ibm.com
   sector: unknown
@@ -1582,9 +1704,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iconbuild
+  slug: iconbuild
+  matched_by: domain
 - name: Ifttt
   url: https://ifttt.com
   sector: unknown
@@ -1601,43 +1724,47 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ikffinance
+  slug: ikffinance
+  matched_by: domain
 - name: Impelpharma
   url: https://impelpharma.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: impelpharma
+  slug: impelpharma
+  matched_by: domain
 - name: Imperfectfoods
   url: https://imperfectfoods.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: imperfectfoods
+  slug: imperfectfoods
+  matched_by: domain
 - name: Indusind
   url: https://indusind.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: indusind
+  slug: indusind
+  matched_by: domain
 - name: Influxdata
   url: https://influxdata.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  slug: influxdb
+  slug: influxdata
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1647,27 +1774,30 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infutor
+  slug: infutor
+  matched_by: domain
 - name: Inscopehq
   url: https://inscopehq.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inscopehq
+  slug: inscopehq
+  matched_by: domain
 - name: Insightsone
   url: https://insightsone.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: insightsone
+  slug: insightsone
+  matched_by: domain
 - name: Intel
   url: https://intel.com
   sector: unknown
@@ -1684,115 +1814,127 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intersectent
+  slug: intersectent
+  matched_by: domain
 - name: Intezer
   url: https://intezer.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intezer
+  slug: intezer
+  matched_by: domain
 - name: Irhythmtech
   url: https://irhythmtech.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: irhythmtech
+  slug: irhythmtech
+  matched_by: domain
 - name: Irthsolutions
   url: https://irthsolutions.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: irthsolutions
+  slug: irthsolutions
+  matched_by: domain
 - name: Jains
   url: https://jains.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jains
+  slug: jains
+  matched_by: domain
 - name: Jedify
   url: https://jedify.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jedify
+  slug: jedify
+  matched_by: domain
 - name: Jet
   url: https://jet.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jet
+  slug: jet
+  matched_by: domain
 - name: Jjgmachining
   url: https://jjgmachining.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jjgmachining
+  slug: jjgmachining
+  matched_by: domain
 - name: Jolynclothing
   url: https://jolynclothing.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jolynclothing
+  slug: jolynclothing
+  matched_by: name-slug
 - name: Junk-king
   url: https://junk-king.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: junk-king
+  slug: junk-king
+  matched_by: domain
 - name: Kace
   url: https://kace.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kace
+  slug: kace
+  matched_by: name-slug
 - name: Karat
   url: https://karat.io
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: karat
+  slug: karat
+  matched_by: domain
 - name: Kayak
   url: https://kayak.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  slug: kayak-com
+  slug: kayak
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1802,36 +1944,40 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kendrascott
+  slug: kendrascott
+  matched_by: domain
 - name: Kishlayfoods
   url: https://kishlayfoods.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kishlayfoods
+  slug: kishlayfoods
+  matched_by: domain
 - name: Kosmoslabs
   url: https://kosmoslabs.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kosmoslabs
+  slug: kosmoslabs
+  matched_by: domain
 - name: Kotak
   url: https://kotak.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kotak
+  slug: kotak
+  matched_by: domain
 - name: Kustomer
   url: https://kustomer.com
   sector: unknown
@@ -1848,18 +1994,20 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kwik
+  slug: kwik
+  matched_by: domain
 - name: Kyocare
   url: https://kyocare.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kyocare
+  slug: kyocare
+  matched_by: domain
 - name: Lakefs
   url: https://lakefs.io
   sector: unknown
@@ -1876,9 +2024,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lavender
+  slug: lavender
+  matched_by: domain
 - name: Leanplum
   url: https://leanplum.com
   sector: unknown
@@ -1895,9 +2044,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: legion
+  slug: legion
+  matched_by: name-slug
 - name: Lendingclub
   url: https://lendingclub.com
   sector: unknown
@@ -1914,18 +2064,20 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: letitrain
+  slug: letitrain
+  matched_by: domain
 - name: Lifesize
   url: https://lifesize.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lifesize
+  slug: lifesize
+  matched_by: domain
 - name: Llamaindex
   url: https://llamaindex.ai
   sector: unknown
@@ -1942,99 +2094,110 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lonza
+  slug: lonza
+  matched_by: domain
 - name: Lordandtaylor
   url: https://lordandtaylor.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lordandtaylor
+  slug: lordandtaylor
+  matched_by: domain
 - name: Lumana
   url: https://lumana.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lumana
+  slug: lumana
+  matched_by: domain
 - name: Lumosity
   url: https://lumosity.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lumosity
+  slug: lumosity
+  matched_by: domain
 - name: Lyracollective
   url: https://lyracollective.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lyracollective
+  slug: lyracollective
+  matched_by: domain
 - name: Madison-reed
   url: https://madison-reed.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: madison-reed
+  slug: madison-reed
+  matched_by: domain
 - name: Maelyscosmetics
   url: https://maelyscosmetics.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maelyscosmetics
+  slug: maelyscosmetics
+  matched_by: domain
 - name: Mamannyc
   url: https://mamannyc.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mamannyc
+  slug: mamannyc
+  matched_by: domain
 - name: Manta
   url: https://manta.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: manta
+  slug: manta
+  matched_by: name-slug
 - name: Marlinequity
   url: https://marlinequity.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marlinequity
+  slug: marlinequity
+  matched_by: domain
 - name: Mbxbio
   url: https://mbxbio.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mbxbio
+  slug: mbxbio
+  matched_by: domain
 - name: Mcafee
   url: https://mcafee.com
   sector: unknown
@@ -2061,36 +2224,40 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meetme
+  slug: meetme
+  matched_by: domain
 - name: Mensabrands
   url: https://mensabrands.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mensabrands
+  slug: mensabrands
+  matched_by: domain
 - name: Meridianfleetservices
   url: https://meridianfleetservices.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meridianfleetservices
+  slug: meridianfleetservices
+  matched_by: domain
 - name: Mia
   url: https://mia.inc
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mia
+  slug: mia
+  matched_by: domain
 - name: Microsoft
   url: https://microsoft.com
   sector: unknown
@@ -2107,9 +2274,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mindfulhealthsolutions
+  slug: mindfulhealthsolutions
+  matched_by: domain
 - name: Mindtickle
   url: https://mindtickle.com
   sector: unknown
@@ -2126,34 +2294,37 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: minted
+  slug: minted
+  matched_by: domain
 - name: Mintifi
   url: https://mintifi.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mintifi
+  slug: mintifi
+  matched_by: domain
 - name: Misfit
   url: https://misfit.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: misfit
+  slug: misfit
+  matched_by: domain
 - name: Mist
   url: https://mist.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  slug: juniper-networks
+  slug: mist
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -2163,90 +2334,100 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mobileiron
+  slug: mobileiron
+  matched_by: domain
 - name: Modcloth
   url: https://modcloth.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modcloth
+  slug: modcloth
+  matched_by: domain
 - name: Moises
   url: https://moises.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: moises
+  in_network: true
+  is_api_provider: true
+  slug: moises
+  matched_by: domain
 - name: Monogramhealth
   url: https://monogramhealth.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: monogramhealth
+  slug: monogramhealth
+  matched_by: domain
 - name: Mosanna
   url: https://mosanna.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mosanna
+  slug: mosanna
+  matched_by: domain
 - name: Motorola
   url: https://motorola.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: motorola
+  slug: motorola
+  matched_by: domain
 - name: Mtnops
   url: https://mtnops.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mtnops
+  slug: mtnops
+  matched_by: domain
 - name: Natoma
   url: https://natoma.ai
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: natoma
+  slug: natoma
+  matched_by: domain
 - name: Necterotherapeutics
   url: https://necterotherapeutics.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: necterotherapeutics
+  slug: necterotherapeutics
+  matched_by: domain
 - name: Neocis
   url: https://neocis.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neocis
+  slug: neocis
+  matched_by: domain
 - name: Netapp
   url: https://netapp.com
   sector: unknown
@@ -2263,90 +2444,100 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: newfold
+  slug: newfold
+  matched_by: domain
 - name: Ngmoco
   url: https://blog.ngmoco.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ngmoco
+  slug: ngmoco
+  matched_by: domain
 - name: Nimbleway
   url: https://nimbleway.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nimbleway
+  in_network: true
+  is_api_provider: true
+  slug: nimbleway
+  matched_by: domain
 - name: Nortonlifelock
   url: https://nortonlifelock.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nortonlifelock
+  slug: nortonlifelock
+  matched_by: domain
 - name: Noyo
   url: https://noyo.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: noyo
+  in_network: true
+  is_api_provider: true
+  slug: noyo
+  matched_by: domain
 - name: Nse-india
   url: https://nse-india.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nse-india
+  slug: nse-india
+  matched_by: name-slug
 - name: Nueclear
   url: https://nueclear.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nueclear
+  slug: nueclear
+  matched_by: domain
 - name: Numbersstation
   url: https://numbersstation.ai
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: numbersstation
+  slug: numbersstation
+  matched_by: domain
 - name: Nve
   url: https://nve.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nve
+  slug: nve
+  matched_by: domain
 - name: Nvp
   url: https://nvp.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nvp
+  slug: nvp
+  matched_by: domain
 - name: Obsidiansecurity
   url: https://obsidiansecurity.com
   sector: unknown
@@ -2363,45 +2554,50 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: occamnetworks
+  slug: occamnetworks
+  matched_by: domain
 - name: Ofbusiness
   url: https://ofbusiness.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ofbusiness
+  slug: ofbusiness
+  matched_by: domain
 - name: Omadahealth
   url: https://omadahealth.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omadahealth
+  slug: omadahealth
+  matched_by: domain
 - name: Onenav
   url: https://onenav.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onenav
+  slug: onenav
+  matched_by: domain
 - name: Onsitedental
   url: https://onsitedental.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onsitedental
+  slug: onsitedental
+  matched_by: domain
 - name: Opendoor
   url: https://opendoor.com
   sector: unknown
@@ -2418,9 +2614,9 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  slug: cloudally
+  slug: arcsight
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Oracle
   url: https://oracle.com
@@ -2438,88 +2634,97 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orionsec
+  slug: orionsec
+  matched_by: domain
 - name: Orolabs
   url: https://orolabs.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orolabs
+  slug: orolabs
+  matched_by: domain
 - name: Ouromedicines
   url: https://ouromedicines.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ouromedicines
+  slug: ouromedicines
+  matched_by: domain
 - name: Owler
   url: https://corp.owler.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: owler
+  slug: owler
+  matched_by: domain
 - name: Oxyzo
   url: https://oxyzo.in
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oxyzo
+  slug: oxyzo
+  matched_by: domain
 - name: Packdigital
   url: https://packdigital.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: packdigital
+  slug: packdigital
+  matched_by: domain
 - name: Padminivna
   url: https://padminivna.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: padminivna
+  slug: padminivna
+  matched_by: domain
 - name: Paireyewear
   url: https://paireyewear.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paireyewear
+  slug: paireyewear
+  matched_by: domain
 - name: Palerra
   url: https://palerra.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: palerra
+  slug: palerra
+  matched_by: domain
 - name: Paloaltonetworks
   url: https://paloaltonetworks.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  slug: microsoft-azure
+  slug: demisto
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -2529,72 +2734,80 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pascalailabs
+  slug: pascalailabs
+  matched_by: domain
 - name: Pcaskin
   url: https://pcaskin.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pcaskin
+  slug: pcaskin
+  matched_by: domain
 - name: Pchintl
   url: https://pchintl.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pchintl
+  slug: pchintl
+  matched_by: domain
 - name: Pega
   url: https://pega.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pega
+  slug: pega
+  matched_by: domain
 - name: Pepperfry
   url: https://pepperfry.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pepperfry
+  slug: pepperfry
+  matched_by: domain
 - name: Persistent
   url: https://persistent.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: persistent
+  slug: persistent
+  matched_by: domain
 - name: Petabyte
   url: https://petabyte.technology
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: petabyte
+  slug: petabyte
+  matched_by: domain
 - name: Pinkfish
   url: https://pinkfish.ai
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: pinkfish
+  in_network: true
+  is_api_provider: true
+  slug: pinkfish
+  matched_by: domain
 - name: Plaid
   url: https://plaid.com
   sector: unknown
@@ -2611,99 +2824,110 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: playgroundpediatrics
+  slug: playgroundpediatrics
+  matched_by: domain
 - name: Pmcs
   url: https://pmcs.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pmcs
+  slug: pmcs
+  matched_by: domain
 - name: Policygenius
   url: https://policygenius.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: policygenius
+  slug: policygenius
+  matched_by: domain
 - name: Polycom
   url: https://polycom.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: polycom
+  slug: polycom
+  matched_by: domain
 - name: Powerexindia
   url: https://powerexindia.in
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: powerexindia
+  slug: powerexindia
+  matched_by: domain
 - name: Praxislabs
   url: https://praxislabs.co
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: praxislabs
+  slug: praxislabs
+  matched_by: domain
 - name: Prevedere
   url: https://prevedere.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: prevedere
+  in_network: true
+  is_api_provider: true
+  slug: prevedere
+  matched_by: domain
 - name: Prodly
   url: https://prodly.co
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prodly
+  slug: prodly
+  matched_by: domain
 - name: Propelplm
   url: https://propelplm.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: propelplm
+  in_network: true
+  is_api_provider: true
+  slug: propelplm
+  matched_by: domain
 - name: Provusinc
   url: https://provusinc.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: provusinc
+  slug: provusinc
+  matched_by: name-slug
 - name: Psdcitywide
   url: https://psdcitywide.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: psdcitywide
+  slug: psdcitywide
+  matched_by: domain
 - name: Ptc
   url: https://ptc.com
   sector: unknown
@@ -2740,36 +2964,40 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qubole
+  slug: qubole
+  matched_by: domain
 - name: Quikr
   url: https://quikr.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: quikr
+  in_network: true
+  is_api_provider: true
+  slug: quikr
+  matched_by: domain
 - name: Qumranet
   url: https://qumranet.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qumranet
+  slug: qumranet
+  matched_by: domain
 - name: Qventus
   url: https://qventus.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qventus
+  slug: qventus
+  matched_by: domain
 - name: R1rcm
   url: https://r1rcm.com
   sector: unknown
@@ -2786,9 +3014,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: r92m
+  slug: r92m
+  matched_by: name-slug
 - name: Rackspace
   url: https://rackspace.com
   sector: unknown
@@ -2805,126 +3034,140 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: raincards
+  slug: raincards
+  matched_by: domain
 - name: Raven
   url: https://raven.io
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: raven
+  slug: raven
+  matched_by: domain
 - name: Raytherapeutics
   url: https://raytherapeutics.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: raytherapeutics
+  slug: raytherapeutics
+  matched_by: domain
 - name: Rcom
   url: https://rcom.co.in
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rcom
+  slug: rcom
+  matched_by: domain
 - name: Redaccess
   url: https://redaccess.io
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: redaccess
+  slug: redaccess
+  matched_by: domain
 - name: Regencyhealthcare
   url: https://regencyhealthcare.in
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: regencyhealthcare
+  slug: regencyhealthcare
+  matched_by: domain
 - name: Remedyskin
   url: https://remedyskin.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: remedyskin
+  slug: remedyskin
+  matched_by: domain
 - name: Renesas
   url: https://renesas.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: renesas
+  in_network: true
+  is_api_provider: true
+  slug: renesas
+  matched_by: domain
 - name: Replicant
   url: https://replicant.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: replicant
+  slug: replicant
+  matched_by: domain
 - name: Retailmenot
   url: https://retailmenot.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: retailmenot
+  slug: retailmenot
+  matched_by: domain
 - name: Revvo
   url: https://revvo.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: revvo
+  in_network: true
+  is_api_provider: true
+  slug: revvo
+  matched_by: domain
 - name: Rfmd
   url: https://rfmd.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rfmd
+  slug: rfmd
+  matched_by: name-slug
 - name: Rightrev
   url: https://rightrev.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rightrev
+  slug: rightrev
+  matched_by: domain
 - name: Ritual
   url: https://ritual.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ritual
+  slug: ritual
+  matched_by: domain
 - name: Sabre
   url: https://sabre.com
   sector: unknown
@@ -2941,9 +3184,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sadbhaveng
+  slug: sadbhaveng
+  matched_by: domain
 - name: Salesforce
   url: https://salesforce.com
   sector: unknown
@@ -2970,45 +3214,50 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scaleio
+  slug: scaleio
+  matched_by: domain
 - name: Scienceexchange
   url: https://scienceexchange.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scienceexchange
+  slug: scienceexchange
+  matched_by: domain
 - name: Scratchpay
   url: https://scratchpay.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: scratchpay
+  in_network: true
+  is_api_provider: true
+  slug: scratchpay
+  matched_by: domain
 - name: Secondmeasure
   url: https://secondmeasure.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: secondmeasure
+  slug: secondmeasure
+  matched_by: domain
 - name: Seculert
   url: https://seculert.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seculert
+  slug: seculert
+  matched_by: domain
 - name: Sedai
   url: https://sedai.io
   sector: unknown
@@ -3025,241 +3274,267 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: serviceware-se
+  slug: serviceware-se
+  matched_by: domain
 - name: Sessionai
   url: https://sessionai.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sessionai
+  slug: sessionai
+  matched_by: domain
 - name: Setpointmedical
   url: https://setpointmedical.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: setpointmedical
+  slug: setpointmedical
+  matched_by: domain
 - name: Shapesecurity
   url: https://shapesecurity.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shapesecurity
+  slug: shapesecurity
+  matched_by: domain
 - name: Shiratronics
   url: https://shiratronics.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shiratronics
+  slug: shiratronics
+  matched_by: domain
 - name: Shopzilla
   url: https://shopzilla.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shopzilla
+  slug: shopzilla
+  matched_by: domain
 - name: Shoretel
   url: https://shoretel.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shoretel
+  slug: shoretel
+  matched_by: domain
 - name: Shotspotter
   url: https://shotspotter.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shotspotter
+  slug: shotspotter
+  matched_by: name-slug
 - name: Shriramfinance
   url: https://shriramfinance.in
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shriramfinance
+  slug: shriramfinance
+  matched_by: domain
 - name: Silabs
   url: https://silabs.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silabs
+  slug: silabs
+  matched_by: domain
 - name: Silagroup
   url: https://silagroup.co.in
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silagroup
+  slug: silagroup
+  matched_by: domain
 - name: Silkroadmed
   url: https://silkroadmed.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silkroadmed
+  slug: silkroadmed
+  matched_by: domain
 - name: Simpplr
   url: https://simpplr.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simpplr
+  slug: simpplr
+  matched_by: domain
 - name: Singular
   url: https://singular.net
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: singular
+  slug: singular
+  matched_by: domain
 - name: Skfin
   url: https://skfin.in
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skfin
+  slug: skfin
+  matched_by: domain
 - name: Skyboximaging
   url: https://skyboximaging.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skyboximaging
+  slug: skyboximaging
+  matched_by: domain
 - name: Slashnext
   url: https://slashnext.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: slashnext
+  slug: slashnext
+  matched_by: domain
 - name: Sleepnumber
   url: https://sleepnumber.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sleepnumber
+  slug: sleepnumber
+  matched_by: domain
 - name: Smartsign
   url: https://smartsign.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smartsign
+  slug: smartsign
+  matched_by: domain
 - name: Smilobaby
   url: https://smilobaby.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smilobaby
+  slug: smilobaby
+  matched_by: domain
 - name: Snapfinger
   url: https://snapfinger.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snapfinger
+  slug: snapfinger
+  matched_by: domain
 - name: Snaproute
   url: https://snaproute.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snaproute
+  slug: snaproute
+  matched_by: domain
 - name: Snowman
   url: https://snowman.in
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snowman
+  slug: snowman
+  matched_by: domain
 - name: Socrates
   url: https://socrates.ai
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: socrates
+  slug: socrates
+  matched_by: domain
 - name: Softheon
   url: https://softheon.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: softheon
+  slug: softheon
+  matched_by: domain
 - name: Sojern
   url: https://sojern.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sojern
+  slug: sojern
+  matched_by: domain
 - name: Solaredge
   url: https://solaredge.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  slug: solar-edge
+  slug: solaredge
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -3269,18 +3544,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sourceday
+  slug: sourceday
+  matched_by: domain
 - name: Spiff
   url: https://spiff.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spiff
+  slug: spiff
+  matched_by: domain
 - name: Spotify
   url: https://spotify.com
   sector: unknown
@@ -3297,36 +3574,40 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sprypoint
+  slug: sprypoint
+  matched_by: domain
 - name: Srsacquiom
   url: https://srsacquiom.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: srsacquiom
+  slug: srsacquiom
+  matched_by: domain
 - name: Stablecore
   url: https://stablecore.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stablecore
+  slug: stablecore
+  matched_by: domain
 - name: Stan
   url: https://stan.store
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stan
+  slug: stan
+  matched_by: domain
 - name: Staplesadvantage
   url: https://staplesadvantage.com
   sector: unknown
@@ -3343,72 +3624,80 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: stellaconnect
+  in_network: true
+  is_api_provider: true
+  slug: stellaconnect
+  matched_by: domain
 - name: Stratim
   url: https://stratim.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stratim
+  slug: stratim
+  matched_by: domain
 - name: Sulekha
   url: https://us.sulekha.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sulekha
+  slug: sulekha
+  matched_by: domain
 - name: Sundaysky
   url: https://sundaysky.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sundaysky
+  slug: sundaysky
+  matched_by: domain
 - name: Supplier
   url: https://supplier.io
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: supplier
+  slug: supplier
+  matched_by: domain
 - name: Swiggy
   url: https://swiggy.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swiggy
+  slug: swiggy
+  matched_by: domain
 - name: Swimply
   url: https://swimply.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swimply
+  slug: swimply
+  matched_by: domain
 - name: Synplicity
   url: https://synplicity.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: synplicity
+  slug: synplicity
+  matched_by: domain
 - name: Talkspace
   url: https://talkspace.com
   sector: unknown
@@ -3425,27 +3714,30 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: targetrwe
+  slug: targetrwe
+  matched_by: name-slug
 - name: Telcare
   url: https://telcare.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: telcare
+  slug: telcare
+  matched_by: domain
 - name: Tellabs
   url: https://tellabs.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tellabs
+  slug: tellabs
+  matched_by: domain
 - name: Tempo
   url: https://tempo.fit
   sector: unknown
@@ -3472,108 +3764,120 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thelearningexperience
+  slug: thelearningexperience
+  matched_by: domain
 - name: Theretailequation
   url: https://theretailequation.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: theretailequation
+  slug: theretailequation
+  matched_by: domain
 - name: Thirdwave
   url: https://thirdwave.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thirdwave
+  slug: thirdwave
+  matched_by: domain
 - name: Thyrocare
   url: https://thyrocare.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thyrocare
+  slug: thyrocare
+  matched_by: domain
 - name: Tigerconnect
   url: https://tigerconnect.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tigerconnect
+  slug: tigerconnect
+  matched_by: domain
 - name: Tivoli
   url: https://tivoli.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tivoli
+  slug: tivoli
+  matched_by: domain
 - name: Tokaidohealth
   url: https://tokaidohealth.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tokaidohealth
+  slug: tokaidohealth
+  matched_by: domain
 - name: Topoathletic
   url: https://topoathletic.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: topoathletic
+  slug: topoathletic
+  matched_by: domain
 - name: Torch
   url: https://torch.io
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: torch
+  slug: torch
+  matched_by: domain
 - name: Trustid
   url: https://trustid.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trustid
+  slug: trustid
+  matched_by: domain
 - name: Trustlogix
   url: https://trustlogix.io
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trustlogix
+  slug: trustlogix
+  matched_by: domain
 - name: Turnitin
   url: https://turnitin.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: turnitin
+  slug: turnitin
+  matched_by: domain
 - name: Turso
   url: https://turso.tech
   sector: unknown
@@ -3590,18 +3894,20 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tvscientific
+  slug: tvscientific
+  matched_by: domain
 - name: Twisty
   url: https://twisty.ai
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: twisty
+  slug: twisty
+  matched_by: domain
 - name: Uber
   url: https://uber.com
   sector: unknown
@@ -3628,117 +3934,130 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ummeedhfc
+  slug: ummeedhfc
+  matched_by: domain
 - name: Uplevelteam
   url: https://uplevelteam.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: uplevelteam
+  slug: uplevelteam
+  matched_by: domain
 - name: Upsidefoods
   url: https://upsidefoods.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upsidefoods
+  slug: upsidefoods
+  matched_by: domain
 - name: Uptycs
   url: https://uptycs.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: uptycs
+  slug: uptycs
+  matched_by: domain
 - name: Usebutton
   url: https://usebutton.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: usebutton
+  in_network: true
+  is_api_provider: true
+  slug: usebutton
+  matched_by: domain
 - name: Vanu
   url: https://vanu.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vanu
+  slug: vanu
+  matched_by: domain
 - name: Vastdata
   url: https://vastdata.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vastdata
+  in_network: true
+  is_api_provider: true
+  slug: vastdata
+  matched_by: domain
 - name: Vastuhfc
   url: https://vastuhfc.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vastuhfc
+  slug: vastuhfc
+  matched_by: domain
 - name: Vectorsolutions
   url: https://vectorsolutions.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vectorsolutions
+  in_network: true
+  is_api_provider: true
+  slug: vectorsolutions
+  matched_by: domain
 - name: Velostrata
   url: https://velostrata.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: velostrata
+  slug: velostrata
+  matched_by: domain
 - name: Venostent
   url: https://venostent.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: venostent
+  slug: venostent
+  matched_by: domain
 - name: Verio
   url: https://verio.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: verio
+  slug: verio
+  matched_by: domain
 - name: Veritasfin
   url: https://veritasfin.in
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: veritasfin
+  slug: veritasfin
+  matched_by: domain
 - name: Verizon
   url: https://verizon.com
   sector: unknown
@@ -3755,72 +4074,80 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vertosmed
+  slug: vertosmed
+  matched_by: domain
 - name: Veza
   url: https://veza.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: veza
+  slug: veza
+  matched_by: domain
 - name: Virtela
   url: https://virtela.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: virtela
+  slug: virtela
+  matched_by: domain
 - name: Vridhihomefinance
   url: https://vridhihomefinance.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vridhihomefinance
+  slug: vridhihomefinance
+  matched_by: domain
 - name: Vuoriclothing
   url: https://vuoriclothing.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vuoriclothing
+  slug: vuoriclothing
+  matched_by: domain
 - name: Webfinanceholding
   url: https://webfinanceholding.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: webfinanceholding
+  slug: webfinanceholding
+  matched_by: domain
 - name: Wegalvanize
   url: https://wegalvanize.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wegalvanize
+  in_network: true
+  is_api_provider: true
+  slug: wegalvanize
+  matched_by: domain
 - name: Weka
   url: https://weka.io
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: weka
+  in_network: true
+  is_api_provider: true
+  slug: weka
+  matched_by: domain
 - name: West
   url: https://west.com
   sector: unknown
@@ -3837,27 +4164,30 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wiliot
+  slug: wiliot
+  matched_by: domain
 - name: Wineaccess
   url: https://wineaccess.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wineaccess
+  slug: wineaccess
+  matched_by: domain
 - name: Wisq
   url: https://wisq.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wisq
+  slug: wisq
+  matched_by: domain
 - name: Workato
   url: https://workato.com
   sector: unknown
@@ -3884,97 +4214,107 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: world50
+  slug: world50
+  matched_by: domain
 - name: Worldview
   url: https://worldview.space
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: worldview
+  slug: worldview
+  matched_by: domain
 - name: Wyzecam
   url: https://wyzecam.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wyzecam
+  slug: wyzecam
+  matched_by: name-slug
 - name: Xpedeon
   url: https://xpedeon.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xpedeon
+  slug: xpedeon
+  matched_by: domain
 - name: Xperi
   url: https://xperi.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xperi
+  slug: xperi
+  matched_by: domain
 - name: Xpressbees
   url: https://xpressbees.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xpressbees
+  slug: xpressbees
+  matched_by: domain
 - name: Xtype
   url: https://xtype.io
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xtype
+  slug: xtype
+  matched_by: domain
 - name: Yatra
   url: https://yatra.com
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yatra
+  slug: yatra
+  matched_by: domain
 - name: Yesbank
   url: https://yesbank.in
   sector: unknown
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yesbank
+  slug: yesbank
+  matched_by: domain
 - name: Yipitdata
   url: https://yipitdata.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yipitdata
+  slug: yipitdata
+  matched_by: domain
 - name: You
   url: https://you.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  slug: you-com
+  slug: graft
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -3984,15 +4324,17 @@ companies:
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zelis
+  slug: zelis
+  matched_by: domain
 - name: Zenasbio
   url: https://zenasbio.com
   sector: unknown
   stage: unknown
   status: active
   source: https://www.norwest.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zenasbio
+  slug: zenasbio
+  matched_by: domain
