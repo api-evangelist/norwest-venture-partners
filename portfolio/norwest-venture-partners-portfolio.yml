@@ -1748,16 +1748,6 @@ companies:
   is_api_provider: false
   slug: imperfectfoods
   matched_by: domain
-- name: Indusind
-  url: https://indusind.com
-  sector: unknown
-  stage: unknown
-  status: unknown
-  source: https://www.norwest.com/companies/
-  in_network: true
-  is_api_provider: false
-  slug: indusind
-  matched_by: domain
 - name: Influxdata
   url: https://influxdata.com
   sector: unknown
