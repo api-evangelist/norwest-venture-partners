@@ -3524,7 +3524,7 @@ companies:
   stage: unknown
   status: unknown
   source: https://www.norwest.com/companies/
-  slug: solaredge
+  slug: solar-edge
   in_network: true
   is_api_provider: true
   matched_by: domain
