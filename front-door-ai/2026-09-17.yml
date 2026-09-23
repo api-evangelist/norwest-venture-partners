@@ -1,0 +1,27 @@
+# Front Door AI Index — norwest-venture-partners — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: norwest-venture-partners
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.norwest.com
+  final_host: www.norwest.com
+  ownership: own
+  owner: norwest-venture-partners
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 4
+  host_score: 4
+  density: 3.03
+  words: 1320
+  tiers:
+    agentic: 0
+    core: 4
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 4
+    agent: 1
+    smart: 1
